@@ -8,7 +8,7 @@ directory = "./web"
 
 [[d1_databases]]
 binding = "DB"
-database_name = "playerlog-db"
+database_name = "playerlog-ai"
 database_id = ""
 
 [[kv_namespaces]]
