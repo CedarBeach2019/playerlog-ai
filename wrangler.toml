@@ -1,21 +1,7 @@
 name = "playerlog-ai"
-main = "worker/index.ts"
-compatibility_date = "2025-03-01"
-compatibility_flags = ["nodejs_compat"]
-
-[assets]
-directory = "./web"
-
-[[d1_databases]]
-binding = "DB"
-database_name = "playerlog-ai"
-database_id = ""
+main = "src/worker.ts"
+compatibility_date = "2024-12-01"
 
 [[kv_namespaces]]
-binding = "KV"
+binding = "PLAYERLOG_KV"
 id = ""
-
-[vars]
-ENVIRONMENT = "production"
-THEME = "playerlog"
-DOMAIN = "player-log"
