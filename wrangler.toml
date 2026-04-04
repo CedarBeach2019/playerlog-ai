@@ -1,7 +1,8 @@
 name = "playerlog-ai"
+account_id = "049ff5e84ecf636b53b162cbb580aae6"
 main = "src/worker.ts"
 compatibility_date = "2024-12-01"
 
 [[kv_namespaces]]
 binding = "PLAYERLOG_KV"
-id = "7f78e108737845d285caf13707ed87cf"
+id = "664b61a8365441c298645acfe94ff8b4"
